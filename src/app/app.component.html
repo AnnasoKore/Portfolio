@@ -1,0 +1,47 @@
+<!-- <header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header-nav col-md-12 col-lg-12">
+                <nav>
+                    <ul class="sidebar" *ngIf="display">
+                        <li (click)="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                        <li (click)="hideSideBar()"><a routerLink="/home" routerLinkActive="Active">Home</a></li>
+                        <li (click)="hideSideBar()"><a routerLink="/education" routerLinkActive="Active">Education</a></li>
+                        <li (click)="hideSideBar()"><a routerLink="/skills" routerLinkActive="Active">Skills</a></li>
+                        <li (click)="hideSideBar()"><a routerLink="/project" routerLinkActive="Active">Projects</a></li>
+                        <li (click)="hideSideBar()"><a routerLink="/experience" routerLinkActive="Active">Experience</a></li>
+                    </ul>
+                    <ul>
+                        <li><span class="nav-span"><img src="assets/DSC_7396.JPG" alt="My Pic">Anna Kore</span></li>
+                        <li class="hideOnMobile"><a routerLink="/home" routerLinkActive="Active">Home</a></li>
+                        <li class="hideOnMobile"><a routerLink="/education" routerLinkActive="Active">Education</a></li>
+                        <li class="hideOnMobile"><a routerLink="/skills" routerLinkActive="Active">Skills</a></li>
+                        <li class="hideOnMobile"><a routerLink="/project" routerLinkActive="Active">Projects</a></li>
+                        <li class="hideOnMobile"><a routerLink="/experience" routerLinkActive="Active">Experience</a></li>
+                        <li class="menu-btn" (click)="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                    </ul>                
+                </nav>
+            </div>
+        </div>
+    </div>
+</header> -->
+
+<header>
+    <app-header></app-header>
+</header>
+
+<body>
+    <router-outlet></router-outlet>
+</body>
+<footer>
+    <!-- <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 xs-12">
+            <div class="feedback">
+                <button class="btn-feedback">FeedBack</button>
+            </div>
+        </div>
+    </div> -->
+    <app-footer></app-footer>
+</footer>
+<!-- <app-header></app-header>
+<router-outlet></router-outlet> -->
