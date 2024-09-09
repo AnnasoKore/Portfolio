@@ -48,6 +48,13 @@
   margin-left: 1rem;
   font-size: larger;
   }
+  .description, a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+color: blue;
+  }
   .image-slide{
     border: 0.5px solid rgba(0, 0, 0, 0.112);
     box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.324);
