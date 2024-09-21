@@ -59,7 +59,7 @@ ul li{
 .skill:hover{
     border: 0.3px groove black;
     box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
-    .title{
+    .titleName{
         background-color: rgba(95, 158, 160, 0.4);
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
